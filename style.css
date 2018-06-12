@@ -29,9 +29,7 @@ header {
 }
 
 .nav-list {
-	position: absolute;
-	top: 0px;
-	right: 30px;
+	float: right;
 }
 
 .nav-list-item {
@@ -39,6 +37,7 @@ header {
 	color: #FAFAFA;
 	display: inline-block;
 	margin: 0 30px;
+	line-height: 70px;
 }
 
 
@@ -217,6 +216,7 @@ header {
 
 .feature-box-text {
 	font-size: 16px;
+	text-align: left;
 }
 
 
@@ -331,6 +331,11 @@ header {
 	width: 400px;
 }
 
+.contact-content-box {
+	display: inline-block;
+	text-align: left;
+}
+
 .contact-mail-tell {
 	font-size: 20px;
 }
@@ -432,6 +437,10 @@ footer {
 		margin: 10px 0;
 	}
 
+	.feature-box-text {
+		text-align: center;
+	}
+
 	.profile {
 		width: 90%;
 		margin: 0 auto;
@@ -462,6 +471,10 @@ footer {
 	}
 	.contact-icon-box i:nth-child(2) {
 	margin: 0 8px;
+	}
+
+	.contact-content-box {
+		text-align: center;
 	}
 
 
